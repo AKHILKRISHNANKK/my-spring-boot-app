@@ -7,8 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MySpringBootAppApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Starting application");
 		SpringApplication.run(MySpringBootAppApplication.class, args);
-		System.out.println("Stopping the app");
+		System.out.println("Stopping application");
 	}
 
 }
