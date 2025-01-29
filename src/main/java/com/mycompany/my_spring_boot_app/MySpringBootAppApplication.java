@@ -9,7 +9,7 @@ public class MySpringBootAppApplication {
 	public static void main(String[] args) {
 		System.out.println("Starting app");
 		SpringApplication.run(MySpringBootAppApplication.class, args);
-
+		System.out.println("Stopping the app");
 	}
 
 }
